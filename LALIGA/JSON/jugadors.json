@@ -1,0 +1,922 @@
+[
+    {
+        "equip": "FC Barcelona",
+        "escut": "img/equipos/barcelona.png",
+        "jugadors": [
+            {
+                "foto": "img/jugadores/terstegen.png",
+                "dorsal": 1,
+                "posicio": "Porter",
+                "qualitat": 90,
+                "nomPersona": "Marc-André ter Stegen"
+            },
+            {
+                "foto": "img/jugadores/lamine.png",
+                "dorsal": 10,
+                "posicio": "Davanter",
+                "qualitat": 95,
+                "nomPersona": "Lamine Yamal"
+            },
+            {
+                "foto": "img/jugadores/paucubarsi.png",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Pau Cubarsí"
+            },
+            {
+                "foto": "img/jugadores/lewandowski.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 94,
+                "nomPersona": "Robert Lewandowski"
+            },
+            {
+                "foto": "img/jugadores/olmo.png",
+                "dorsal": 5,
+                "posicio": "Migcampista",
+                "qualitat": 88,
+                "nomPersona": "Dani Olmo"
+            }
+        ],
+        "entrenador": {
+            "foto": "img/jugadores/flick.png",
+            "nomPersona": "Hansi Flick",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Madrid CF",
+        "escut": "img/equipos/realmadrid.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p246333/1024x1113/p246333_t186_2024_1_001_000.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 89,
+                "nomPersona": "Vinicius Junior"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p37055/2048x2225/p37055_t186_2024_1_001_000.png",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 87,
+                "nomPersona": "Luka Modric"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p102380/256x278/p102380_t186_2024_1_001_000.png",
+                "dorsal": 4,
+                "posicio": "Defensa",
+                "qualitat": 88,
+                "nomPersona": "Antonio Rüdiger"
+            },
+            {
+                "foto": "https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/3kq9cckrnlogidldtdie2fkbl/players/daniel-carvajal-ramos/assets/POSE_-11.png",
+                "dorsal": 17,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Dani Carvajal"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p244855/1024x1113/p244855_t186_2024_1_001_000.png",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 86,
+                "nomPersona": "Jude Bellingham"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t186/man50/2048x2225/man50_t186_2024_1_001_000.png",
+            "nomPersona": "Carlo Ancelotti",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Atlético de Madrid",
+        "escut": "img/equipos/atleticomadrid.png",
+        "jugadors": [
+            {
+                "foto": "img/jugadores/morata.png",
+                "dorsal": 10,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Raúl Morata"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t175/p503523/1024x1113/p503523_t175_2024_1_001_000.png",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Pablo Barrios"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t175/p503523/1024x1113/p503523_t175_2024_1_001_000.png",
+                "dorsal": 18,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "José María Giménez"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t175/p76650/2048x2048/p76650_t175_2024_1_003_000.png",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Antoine Griezman"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502181151/uploads/images/jugadores/ficha/63.png",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Koke Resurrección"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t175/man37905/2048x2225/man37905_t175_2024_1_001_000.png",
+            "nomPersona": "Diego Pablo Simeone",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Sevilla FC",
+        "escut": "img/equipos/sevilla.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t179/p89335/2048x2225/p89335_t179_2024_1_001_000.png",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 86,
+                "nomPersona": "Saúl Ñiguez"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t179/p610206/2048x2225/p610206_t179_2024_1_001_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 87,
+                "nomPersona": "Isaac Romero"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t179/p72154/2048x2048/p72154_t179_2024_1_003_000.png",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Nemanja Gudelj"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t179/p185524/2048x2225/p185524_t179_2024_1_001_000.png",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Djibril Sow"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502120359/uploads/images/jugadores/ficha/6705.png",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 88,
+                "nomPersona": "Orjan Dyland"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t179/man49389/1024x1024/man49389_t179_2024_1_003_000.png",
+            "nomPersona": "García Pimienta",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Sociedad",
+        "escut": "img/equipos/realsociedad.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t188/p219000/1024x1024/p219000_t188_2024_1_003_000.png",
+                "dorsal": 23,
+                "posicio": "Davanter",
+                "qualitat": 83,
+                "nomPersona": "Mikel Oyarzabal"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_0_brais-m%C3%A9ndez.png",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Brais Méndez"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_2_take-kubo.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Take Kubo"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t188/p481655/2048x2225/p481655_t188_2024_1_001_000.png",
+                "dorsal": 15,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Martín Zubimendi"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/becker.png",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 81,
+                "nomPersona": "Sheraldo Becker"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_5_imanol-alguacil.png",
+            "nomPersona": "Imanol Alguacil",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Betis",
+        "escut": "img/equipos/betis.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p500745/1024x1113/p500745_t185_2024_0_001_000.png",
+                "dorsal": 19,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Ez Abde"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p81138/2048x2225/p81138_t185_2024_1_001_000.png",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Marc Bartra"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502171531/uploads/images/jugadores/ficha/2153.png",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Héctor Bellerín"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p149915/2048x2225/p149915_t185_2024_1_001_000.png",
+                "dorsal": 12,
+                "posicio": "Defensa",
+                "qualitat": 84,
+                "nomPersona": "Diego Llorente"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502120317/uploads/images/jugadores/ficha/1239.png",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 82,
+                "nomPersona": "Ricardo Rodríguez"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t185/man257/2048x2225/man257_t185_2024_1_001_000.png",
+            "nomPersona": "Manuel Pellegrini",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Athletic Club",
+        "escut": "img/equipos/atleticclub.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p439772/2048x2225/p439772_t174_2024_1_001_000.png",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Oihan Sancet"
+            },
+            {
+                "foto": "https://assets.sorare.com/playerpicture/53d8b819-3229-431f-a1a7-0ef197182230/picture/squared-a32a49ae553c3b1e889a21e2c38efc51.png",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Ander Herrera"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p197334/2048x2225/p197334_t174_2024_1_001_000.png",
+                "dorsal": 18,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Iñaki Williams"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p470506/2048x2225/p470506_t174_2024_1_001_000.png",
+                "dorsal": 4,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Beñat Prados"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p523654/2048x2225/p523654_t174_2024_1_001_000.png",
+                "dorsal": 20,
+                "posicio": "Davanter",
+                "qualitat": 83,
+                "nomPersona": "Nico Williams"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t174/man110/1024x1024/man110_t174_2024_1_003_000.png",
+            "nomPersona": "Ernesto Valverde",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Villarreal CF",
+        "escut": "img/equipos/villareal.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p18003/2048x2225/p18003_t449_2024_1_001_000.png",
+                "dorsal": 11,
+                "posicio": "Defensa",
+                "qualitat": 80,
+                "nomPersona": "Raúl Albiol"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p248501/2048x2225/p248501_t449_2024_1_001_000.png",
+                "dorsal": 24,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Álex Baena"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p439597/2048x2225/p439597_t449_2024_1_001_000.png",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 77,
+                "nomPersona": "Diego Conde"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p445956/2048x2225/p445956_t449_2024_1_001_000.png",
+                "dorsal": 25,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Logan Costa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p51952/2048x2225/p51952_t449_2024_1_001_000.png",
+                "dorsal": 12,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Dani Parejo"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets-es.imgfoot.com/media/cache/150x150/portrait/marcelino-garcia-toral.png",
+            "nomPersona": "Marcelino García Toral",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Valencia CF",
+        "escut": "img/equipos/valencia.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p439716/2048x2225/p439716_t191_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Davanter",
+                "qualitat": 75,
+                "nomPersona": "Hugo Duro"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p493072/2048x2225/p493072_t191_2024_1_001_000.png",
+                "dorsal": 5,
+                "posicio": "Davanter",
+                "qualitat": 74,
+                "nomPersona": "Diego López"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p546540/2048x2225/p546540_t191_2024_1_001_000.png",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 72,
+                "nomPersona": "Javi Guerra"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p132105/2048x2225/p132105_t191_2024_1_001_000.png",
+                "dorsal": 1,
+                "posicio": "Defensa",
+                "qualitat": 73,
+                "nomPersona": "José Gayà"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p449027/2048x2225/p449027_t191_2024_1_001_000.png",
+                "dorsal": 3,
+                "posicio": "Porter",
+                "qualitat": 80,
+                "nomPersona": "Giorgi Mamardashvili"
+            }
+        ],
+        "entrenador": {
+            "foto": "img/jugadores/baraja.png",
+            "nomPersona": "Rubén Baraja",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RC Celta de Vigo",
+        "escut": "img/equipos/celta.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t176/p82263/2048x2225/p82263_t176_2024_1_001_000.png",
+                "dorsal": 22,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Marcos Alonso"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t176/p242313/2048x2225/p242313_t176_2024_1_001_000.png",
+                "dorsal": 15,
+                "posicio": "Defensa",
+                "qualitat": 84,
+                "nomPersona": "Óscar Mingueza"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t176/p40270/2048x2225/p40270_t176_2024_1_001_000.png",
+                "dorsal": 17,
+                "posicio": "Davanter",
+                "qualitat": 86,
+                "nomPersona": "Iago Aspas"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202501210352/uploads/images/jugadores/ficha/5629.png",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Luca de la Torre"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t176/p465689/2048x2225/p465689_t176_2024_1_001_000.png",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Ilaix Moriba"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t176/man61996/2048x2225/man61996_t176_2024_1_001_000.png",
+            "nomPersona": "Claudio Giráldez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RCD Mallorca",
+        "escut": "img/equipos/mallorca.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p485385/1024x1113/p485385_t181_2024_1_001_000.png",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Samu Costa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p169007/2048x2225/p169007_t181_2024_1_001_000.png",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Sergi Darder"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p156293/2048x2225/p156293_t181_2024_1_001_000.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Vedat Muriqui"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p185126/2048x2225/p185126_t181_2024_1_001_000.png",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Cyle Larin"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p92187/2048x2225/p92187_t181_2024_1_001_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 81,
+                "nomPersona": "Abdón Prats"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t181/man42602/2048x2225/man42602_t181_2024_1_001_000.png",
+            "nomPersona": "Jagoba Arrasate",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Girona FC",
+        "escut": "img/equipos/girona.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p227165/2048x2225/p227165_t2893_2024_1_001_000.png",
+                "dorsal": 8,
+                "posicio": "Davanter",
+                "qualitat": 79,
+                "nomPersona": "Abel Ruíz"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p78056/2048x2225/p78056_t2893_2024_1_001_000.png",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Oriol Romeu"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/gir/images/2024/09/16/original/af825815-9d38-4b7a-bc2a-8bf7f47edbfa-117.png",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Miguel Gutiérrez"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p49464/1024x1113/p49464_t2893_2024_1_001_000.png",
+                "dorsal": 4,
+                "posicio": "Davanter",
+                "qualitat": 75,
+                "nomPersona": "Cristhian Stuani"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p58877/2048x2225/p58877_t2893_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Daley Blind"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t2893/man48059/2048x2225/man48059_t2893_2024_1_001_000.png",
+            "nomPersona": "Míchel Sánchez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "CA Osasuna",
+        "escut": "img/equipos/osasuna.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t450/p484702/2048x2225/p484702_t450_2024_1_001_000.png",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 88,
+                "nomPersona": "Aimar Oroz"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t450/p94273/2048x2225/p94273_t450_2024_1_001_000.png",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Ante Budimir"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502110624/uploads/images/jugadores/ficha/3742.png",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 86,
+                "nomPersona": "Nacho Vidal"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t450/p522601/2048x2225/p522601_t450_2024_1_001_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Bryan Zaragoza"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t957/p451281/2048x2225/p451281_t957_2024_1_001_000.png",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Juan Cruz"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t450/man41230/1024x1024/man41230_t450_2024_1_003_000.png",
+            "nomPersona": "Vicente Moreno",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Getafe CF",
+        "escut": "img/equipos/getafe.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t1450/p167742/2048x2225/p167742_t1450_2024_1_001_000.png",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Luis Milla"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t1450/p660392/2048x2225/p660392_t1450_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Christantus Uche"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p179271/2048x2225/p179271_t173_2024_1_001_000.png",
+                "dorsal": 13,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Carles Aleñá"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t1450/p171222/2048x2225/p171222_t1450_2024_1_001_000.png",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 80,
+                "nomPersona": "Mauro Arambarri"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t1450/p477406/1024x1113/p477406_t1450_2024_1_001_000.png",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Álex Sola"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t1450/man39504/2048x2225/man39504_t1450_2024_1_001_000.png",
+            "nomPersona": "José Bordalás",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "UD Las Palmas",
+        "escut": "img/equipos/laspalmas.png",
+        "jugadors": [
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502120337/uploads/images/jugadores/ficha/1379.png",
+                "dorsal": 23,
+                "posicio": "Porter",
+                "qualitat": 79,
+                "nomPersona": "Peter Cillessen"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/original/9ea8c8ac-192a-414e-a920-5055b2d1f6e3-992.png",
+                "dorsal": 15,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Javi Muñoz"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t407/p108438/2048x2225/p108438_t407_2024_1_001_000.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Sandro Ramírez"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/xlarge/5858c903-7ff1-49cb-977c-67235ae80491-887.png",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Alberto Moleiro"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t407/p109270/1024x1113/p109270_t407_2024_1_001_000.png",
+                "dorsal": 17,
+                "posicio": "Davanter",
+                "qualitat": 92,
+                "nomPersona": "Jaime Mata"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://i.namu.wiki/i/s4x2f-x04JI09jeGc23QTL3KfDW7mW1tY8S5O2GPms_aUMLMpL9E0WIHmyM5KmZPl9pq5TQVecy7qeVuJycYZQ.webp",
+            "nomPersona": "Luis Carrión",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RCD Espanyol",
+        "escut": "img/equipos/espanyol.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p175090/1024x1024/p175090_t177_2024_1_003_000.png",
+                "dorsal": 8,
+                "posicio": "Davanter",
+                "qualitat": 78,
+                "nomPersona": "Pere Milla"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p485221/2048x2225/p485221_t177_2024_1_001_000.png",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "José Gragera"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p442291/1024x1024/p442291_t177_2024_1_003_000.png",
+                "dorsal": 27,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Álvaro Aguado"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p431434/1024x1113/p431434_t177_2024_1_001_000.png",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Javier Puado"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p64662/1024x1113/p64662_t177_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 81,
+                "nomPersona": "Leandro Cabrera"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://www.rcdespanyol.com/uploads/_images/employee/3568/resized/113162_backendGallery.png",
+            "nomPersona": "Manolo González",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "CD Leganés",
+        "escut": "img/equipos/leganes.png",
+        "jugadors": [
+            {
+                "foto": "https://statics-maker.llt-services.com/leg/images/2024/09/04/xlarge/96e27414-d5d3-4ac8-b11a-09b3a8df0260-61.png",
+                "dorsal": 14,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Javi Hernández"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/leg/images/2024/09/04/xlarge/dcaaf953-d629-4923-b056-402520e717d3-631.png",
+                "dorsal": 22,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Sergio González"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t957/p195502/2048x2225/p195502_t957_2024_1_001_000.png",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 76,
+                "nomPersona": "Jorge Sáez"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t957/p435031/2048x2225/p435031_t957_2024_1_001_000.png",
+                "dorsal": 12,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Enric Franquesa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t957/p94618/2048x2225/p94618_t957_2024_1_001_000.png",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 79,
+                "nomPersona": "Marko Dmitrovic"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t957/man49384/2048x2225/man49384_t957_2024_1_001_000.png",
+            "nomPersona": "Borja Jiménez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Valladolid CF",
+        "escut": "img/equipos/valladolid.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p465701/2048x2225/p465701_t192_2024_1_001_000.png",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Raúl Moro"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p561243/2048x2225/p561243_t192_2024_1_001_000.png",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 75,
+                "nomPersona": "Mario Martín"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p448179/1024x1024/p448179_t192_2024_1_003_000.png",
+                "dorsal": 21,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Juanmi Latasa"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502120353/uploads/images/jugadores/ficha/10251.png",
+                "dorsal": 25,
+                "posicio": "Defensa",
+                "qualitat": 81,
+                "nomPersona": "David Torres"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p421294/2048x2225/p421294_t192_2024_1_001_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Marcos André"
+            }
+        ],
+        "entrenador": {
+            "foto": "img/jugadores/paulo.png",
+            "nomPersona": "Paulo Pezzolano",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Rayo Vallecano",
+        "escut": "img/equipos/vallecano.png",
+        "jugadors": [
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202501021511/uploads/images/jugadores/ficha/1631.png",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "James Rodríguez"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502110216/uploads/images/jugadores/ficha/6957.png",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Isaac Palazón"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t184/p183462/2048x2225/p183462_t184_2024_1_001_000.png",
+                "dorsal": 3,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Unai López"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t184/p40721/2048x2225/p40721_t184_2024_1_001_000.png",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 80,
+                "nomPersona": "Óscar Trejo"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t184/p173209/2048x2225/p173209_t184_2024_1_001_000.png",
+                "dorsal": 12,
+                "posicio": "Porter",
+                "qualitat": 82,
+                "nomPersona": "Augusto Batalla"
+            }
+        ],
+        "entrenador": {
+            "foto": "img/jugadores/francisco.png",
+            "nomPersona": "Francisco Rodríguez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Deportivo Alavés",
+        "escut": "img/equipos/alaves.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p212770/2048x2225/p212770_t173_2024_1_001_000.png",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p201178/2048x2225/p201178_t173_2024_1_001_000.png",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p465494/2048x2225/p465494_t173_2024_1_001_000.png",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202501131941/uploads/images/jugadores/ficha/7785.png",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p61597/1024x1024/p61597_t173_2024_1_003_000.png",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "img/jugadores/luis.png",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    }
+]

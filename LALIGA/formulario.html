@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="icon" href="img/logo.png">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main id="container">
+        <!-- Esto es el nav -->
+        <nav id="nav">
+            <img src="/img/logo.png" alt="icono" class="icono">
+            <div>
+                <button class="botones"><a href="index.html">Home</a></button>
+                <button class="botones"><a href="formulario.html">Form</a></button>
+            </div>
+        </nav>
+
+        <div id="container-formulario">
+            <form action="" id="miFormulario">
+                <label for="tipopersona">Tipo de persona:</label> <br>
+                <select id="tipopersona" name="tipopersona">
+                    <option value="">Seleccione una opción</option>
+                    <option value="entrenador">Entrenador</option>
+                    <option value="jugador">Jugador</option>
+                </select><br>
+                <br>
+                <label for="">Equipo</label><br>
+                <select name="" id="equipos-form">
+
+                </select>
+                <br>
+                <br>
+                <label for="">Nombre Completo: </label><br>
+                <input type="text-area">
+                <br>
+                <br>
+                <label for="">Altura: </label> <br>
+                <input type="number">
+                <br>
+                <br>
+                <label for="">Peso: </label> <br>
+                <input type="number">
+                <br>
+                <br>
+                <label for="">Fecha de Nacimiento: </label>
+                <input type="date"> <br>
+                <br>
+                <div id="enviar">
+                    <input type="submit" name="" id="submit" value="✔"> <!-- Botón de submit -->
+                </div>
+            </form>
+
+        </div>
+        <footer>
+            <a href="https://politecnics.barcelona/" target="_blank"><img src="/img/redes/politecnics.png"
+                    alt="logoPolitecnics" class="logopolitecnics"></a>
+            <span>Derechos de Autor</span>
+            <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank"><img src="/img/redes/instagram.png" alt="instagram"
+                        class="logoredes"></a>
+                <a href="https://github.com/Anperezna" target="_blank"><img src="/img/redes/github.png" alt="github"
+                        class="logoredes"></a>
+            </div>
+        </footer>
+    </main>
+    <script src="JAVASCRIPT/script3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,576 @@
+body {
+    font-family: 'Poppins';
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Estadio_Jos%C3%A9_Zorrilla_de_Valladolid_%28noviembre_de_2019%29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'asideleft article asideright asideright'
+    'footer footer footer footer';
+    grid-template-columns: auto 1fr 0.35fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    grid-area: nav;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.icono {
+    border-radius: 50px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.logopolitecnics {
+    width: 200px; /* Asegúrate de que este tamaño sea suficiente */
+    margin-left: 50px;
+}
+
+.logoredes {
+    width: 70px; /* Aumenta el tamaño de los íconos de redes */
+    margin: 0 10px; /* Añade margen para separación */
+}
+
+.botones {
+    margin: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+.botones:hover {
+    background-color: yellow;
+    transition-duration: 0.3s;
+}
+
+.nom-entrenador {
+    font-size: 20px;
+}
+
+aside > div {
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+aside > div:hover {
+    box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+    transition-duration: 0.5s;
+    background-color: blue;
+}
+
+#equipos {
+    grid-area: asideleft;
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los escudos horizontalmente */
+    align-items: center; /* Centra los escudos verticalmente */
+    margin-left: 10px;
+    padding: 10px; /* Añadir padding para un mejor espaciado */
+}
+
+.escudo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+#container_noticias {
+    grid-area: article;
+    text-align: center;
+    padding: 20px;
+    display: grid; /* Cambiado a grid para usar áreas */
+    justify-items: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+#bloques1 {
+    margin: 10px;
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 93% 100%, 0 100%, 0% 80%, 0 0%);
+    padding: 10px;
+}
+
+#estadisticas_generales {
+    grid-area: asideright;
+    margin-right: 10px;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+#bloques2 {
+    margin: 10px;
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clip-path: polygon(20% 0%, 93% 0%, 100% 20%, 100% 80%, 93% 100%, 0 100%, 0% 80%, 0 0);
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.noticia {
+    color: white;
+    font-size: 35px;
+}
+
+.titulo_noticias {
+    font-size: 25px;
+}
+
+.partidos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.partido {
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.partido:hover {
+    box-shadow: 14px 14px 20px 0 rgba(86, 86, 86, 0.3);
+    transition-duration: 0.5s;
+}
+
+.equipos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-jugador, .foto-entrenador {
+    max-width: 300px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+
+.foto-jugador:hover, .foto-entrenador:hover {
+    transform: scale(1.2);
+}
+
+#contenedor {
+    display: grid; /* Cambia a grid para usar propiedades de cuadrícula */
+    grid-template-columns: 1fr; /* Una sola columna */
+    grid-template-rows: auto auto; /* Dos filas: una para el entrenador y otra para los jugadores */
+    justify-items: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    width: 100%; /* Ancho completo */
+    max-width: 1200px; /* Ajusta este valor según sea necesario para el ancho máximo */
+    margin: 20px auto; /* Margen superior y centrado horizontalmente */
+    grid-area: article; /* Asigna el contenedor al área 'article' */
+}
+
+#entrenador {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra al entrenador */
+    max-width: 300px; /* Ajusta el ancho del entrenador */
+    width: 100%; /* Ancho completo */
+    margin: 20px; /* Margen alrededor del entrenador */
+    background-color: blue;
+    border-radius: 22px;
+}
+
+#jugadores {
+    display: flex; /* Mantiene a los jugadores en fila */
+    justify-content: center; /* Centra a los jugadores */
+    padding: 10px; /* Añade padding */
+    width: 100%; /* Ancho completo */
+}
+
+.jugadores-container {
+    display: flex; /* Alinea los jugadores en fila */
+    flex-wrap: wrap; /* Permite que los jugadores se envuelvan si es necesario */
+    justify-content: center; /* Centra los jugadores */
+    width: auto; /* Ajusta automáticamente el ancho */
+}
+
+
+.targetas-jugadores {
+    display: flex;
+    flex-direction: column;
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    margin: 10px; /* Espaciado entre tarjetas */
+    border-radius: 22px;
+    background-color: aquamarine;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    grid-area: asideleft; /* Asigna el área 'asideleft' */
+}
+
+.targetas-jugadores:hover {
+    box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+    transition-duration: 0.2s;
+}
+
+.escudo-equipo {
+    width: 100px;
+}
+
+#contenido-equipo {
+    width: 100%;
+    text-align: center;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'asideleft article asideright asideright'
+    'footer footer footer footer';
+    gap: 10px;
+}
+
+.fecha {
+    margin: 20px;
+    font-weight: 600;
+}
+
+.vs {
+    margin: 0 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.noticias1 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.imagen_noticia1 {
+    width: 100%;
+    height: 100%;
+}
+
+#top_goles {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    background-color: blue;
+    margin-top: 20px;
+    max-width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+#datos_jugador {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#top1 {
+    display: grid;
+    background-color: white;
+    align-items: center;
+}
+
+#top1_1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#top1_2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#top1_3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#top2 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    align-items: center;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+}
+
+#top2_1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#top2_2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#top2_3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#top3 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: white;
+    align-items: center;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+}
+
+/* Asegúrate de que la tabla se ajuste al 100% del div contenedor */
+#top_goles {
+    width: 100%;
+    overflow-x: auto;
+    max-width: 100%;
+    box-sizing: border-box; /* Para que el padding no desborde el div */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%; /* Para que no se desborde */
+    table-layout: fixed; /* Mantén las celdas dentro del contenedor */
+}
+
+thead, tfoot {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* Evita que el texto se desborde */
+    overflow: hidden; /* Oculta el desbordamiento */
+    text-overflow: ellipsis; /* Añade puntos suspensivos al texto desbordado */
+    word-wrap: break-word; /* Permite que el texto largo se divida en varias líneas */
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 10%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 40%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 25%;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 25%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo hover para cambiar el color a lightblue */
+th:hover, td:hover {
+    background-color: lightblue;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead, tfoot {
+        display: none;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+        border: 1px solid #ddd;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    position: sticky;
+    margin-bottom: 10px;
+    grid-area: footer;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin: 15px 20px 10px 10px;
+}
+
+.escudo {
+    cursor: pointer;
+}
+
+.containerjugadores{
+    width: 100%;
+}
+
+#main-plantilla {
+    width: 100%;
+    display: flex;
+}
+
+.jugador {
+    width: 100%;
+    margin: 20px;
+    border-radius: 22px;
+    background-color: hsla(128, 57%, 17%, 0.5);
+    color: white;
+    font-family: ;
+}
+
+.jugador > img {
+    width: 200px;
+}
+
+#jugadores-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#titulo-plantilla {
+
+    text-align: center;
+}
+
+
+#logoequipo {
+    text-align: center;
+}
+
+.foto-jugador, .foto-entrenador {
+    width: auto; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 20%; /* Hace la imagen circular */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio */
+    margin-bottom: 10px;
+    transition-duration: 0.5s; /* Espacio entre la imagen y los datos */
+}
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#miFormulario {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#container-formulario {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    background-color: #ccc;
+}
+
+#enviar {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+}
+
+input {
+    background-color: none;
+    border-style: none;
+}
+
+option {
+    text-align: center;
+}
+
+#diventrenador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrenador {
+    background-color: lightgreen;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.entrenador > p {
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
